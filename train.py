@@ -1,31 +1,28 @@
 import pandas as pd
 import yaml
 import os
+from sklearn.model_selection import train_test_split
 
-# Load YAML config
-config_path = os.path.join("configs", "adult.yaml")
+# === Step 1: Load YAML Config ===
+config_path = r"C:\Deakin\Project\katabatic\tabddpm\TabDDPM\tab-ddpm\tab_ddpm\arff\output_files\car_1.yaml"
 with open(config_path, "r") as f:
     config = yaml.safe_load(f)
 
-# Print loaded config (for debug)
 print("Loaded configuration:")
 print(config)
 
-# Load dataset
-data_path = os.path.join("datasets", "adult.csv")
+# === Step 2: Load Dataset ===
+data_path = config['path']  # ✅ Correct key usage
 df = pd.read_csv(data_path)
 
 print("\nLoaded dataset:")
 print(df.head())
 
-# Example: Train-test split
-from sklearn.model_selection import train_test_split
-
+# === Step 3: Train/Test Split ===
 train_df, test_df = train_test_split(df, test_size=0.2, random_state=42)
 print(f"\nTraining size: {len(train_df)}, Test size: {len(test_df)}")
 
-# Placeholder: simulate model training
+# === Step 4: Simulate Training ===
 print("\n[INFO] Training TabDDPM model (this is a placeholder)...")
-# Insert TabDDPM training call here
-
+# Insert actual TabDDPM training call here
 print("[INFO] Training complete.")

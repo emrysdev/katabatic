@@ -1,0 +1,21 @@
+features:
+- A1
+- A2
+- A3
+- A4
+- A5
+- A6
+- A7
+- A8
+- A9
+- A10
+- A11
+- A12
+- A13
+- A14
+- A15
+- class
+name: credit-a
+num_features: 16
+num_instances: 690
+path: C:\Deakin\Project\katabatic\tabddpm\TabDDPM\tab-ddpm\tab_ddpm\arff\output_files\credit-a.csv

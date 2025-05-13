@@ -1,0 +1,20 @@
+features:
+- age
+- workclass
+- fnlwgt
+- education
+- education-num
+- marital-status
+- occupation
+- relationship
+- race
+- sex
+- capital-gain
+- capital-loss
+- hours-per-week
+- native-country
+- class
+name: adult
+num_features: 15
+num_instances: 48842
+path: C:\Deakin\Project\katabatic\tabddpm\TabDDPM\tab-ddpm\tab_ddpm\arff\output_files\adult.csv

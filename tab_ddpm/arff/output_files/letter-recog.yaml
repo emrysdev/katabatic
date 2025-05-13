@@ -1,0 +1,22 @@
+features:
+- x-box
+- y-box
+- width
+- high
+- onpix
+- x-bar
+- y-bar
+- x2bar
+- y2bar
+- xybar
+- x2ybr
+- xy2br
+- x-ege
+- xegvy
+- y-ege
+- yegvx
+- class
+name: letter-recog
+num_features: 17
+num_instances: 20000
+path: C:\Deakin\Project\katabatic\tabddpm\TabDDPM\tab-ddpm\tab_ddpm\arff\output_files\letter-recog.csv

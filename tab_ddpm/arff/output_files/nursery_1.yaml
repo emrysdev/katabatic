@@ -1,0 +1,14 @@
+features:
+- parents
+- has_nurs
+- form
+- children
+- housing
+- finance
+- social
+- health
+- class
+name: nursery_1
+num_features: 9
+num_instances: 12960
+path: C:\Deakin\Project\katabatic\tabddpm\TabDDPM\tab-ddpm\tab_ddpm\arff\output_files\nursery_1.csv
