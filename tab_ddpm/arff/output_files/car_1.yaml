@@ -1,0 +1,12 @@
+features:
+- buying
+- maint
+- doors
+- persons
+- lug_boot
+- safety
+- class
+name: car_1
+num_features: 7
+num_instances: 1728
+path: C:\Deakin\Project\katabatic\tabddpm\TabDDPM\tab-ddpm\tab_ddpm\arff\output_files\car_1.csv
