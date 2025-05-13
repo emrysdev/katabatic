@@ -14,7 +14,7 @@ Run with:
 
 ```bash
 python train_chess.py --dataset chess.csv --train True
-
+```
 
 Loaded configuration:
 {'name': 'chess', 'num_features': 40, 'num_instances': 551, ...}
