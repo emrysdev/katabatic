@@ -14,3 +14,16 @@ Run with:
 
 ```bash
 python train_chess.py --dataset chess.csv --train True
+
+
+Loaded configuration:
+{'name': 'chess', 'num_features': 40, 'num_instances': 551, ...}
+
+Loaded dataset:
+   A0    A1    A2  ...  A38  class
+0  x63  x63  x63  ...  x63   win
+
+Training size: 440, Test size: 111
+
+[INFO] Training TabDDPM model (this is a placeholder)...
+[INFO] Training complete.
