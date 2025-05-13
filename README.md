@@ -16,7 +16,7 @@ Run with:
 python train_chess.py --dataset chess.csv --train True
 ```
 
-Loaded configuration:
+```Loaded configuration:
 {'name': 'chess', 'num_features': 40, 'num_instances': 551, ...}
 
 Loaded dataset:
@@ -26,4 +26,4 @@ Loaded dataset:
 Training size: 440, Test size: 111
 
 [INFO] Training TabDDPM model (this is a placeholder)...
-[INFO] Training complete.
+[INFO] Training complete.```
